@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    
+	  <Text>Command RAB_00_Orinetation</Text>
+    <Description>Some description for RAB_00_Orinetation</Description>
+    <Assembly>RAB_00_Orinetation.dll</Assembly>
+    <FullClassName>RAB_00_Orinetation.Command</FullClassName>
+    <ClientId>4c1212de-fe49-452e-b797-bc3ffbce96e1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  
+	<AddIn Type="Application">
+    <Name>Application RAB_00_Orinetation</Name>
+    <Assembly>RAB_00_Orinetation.dll</Assembly>
+    <FullClassName>RAB_00_Orinetation.App</FullClassName>
+    <ClientId>033393ae-6033-4001-b093-d33d383331ae</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
